@@ -28,7 +28,7 @@ Pod::Spec.new do |s|
                     this is A
                    DESC
 
-  s.homepage     = "https://github.com/ModulizationDemo/A"
+  s.homepage     = "https://github.com/zdyBB/A"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -80,7 +80,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/ModulizationDemo/A.git", :tag => s.version.to_s }
+  s.source       = { :git => "https://github.com/zdyBB/A.git", :tag => s.version.to_s }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -135,7 +135,6 @@ Pod::Spec.new do |s|
   # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
   # s.dependency "BLNetworking"
   # s.dependency "BLAPIManagers"
-  s.dependency "B_Category"
-  s.dependency "HandyFrame"
+  # s.dependency "BLMediator"
 
 end
